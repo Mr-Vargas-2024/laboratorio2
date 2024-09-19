@@ -1,0 +1,73 @@
+body {
+    font-family:'Arial Narrow Bold' ;
+    background-image: url(corchea.webp);
+    opacity: 9;
+    background-position: center;
+    background-size: 30%;
+    
+   
+   
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(48, 47, 47);
+    background-position: right ;   
+ 
+}
+
+form {
+padding: 20px 20px;
+box-shadow: 0 6px  rgba(0,0,0,10);
+border-radius: 20px;
+text-align:center;
+width:300px
+
+
+}
+.input-group {
+display:flex;
+flex-direction:column;
+text-align:left ;
+
+
+}
+
+h4 {
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+}
+
+
+input,form {
+    
+    background-color: rgb(93, 109, 199);
+    border: 3px solid rgb(10, 10, 10);
+    
+    }
+
+input,textarea {
+padding: 10px 15px;
+border-radius: 25px;
+margin-bottom: 2%;
+background-color: rgba(242, 244, 247, 0.767);
+border: 2px solid rgb(128, 125, 125);
+color: rgb(0, 0, 0);
+outline:none;
+}
+
+.btn {
+font-size: 16px;
+color: rgb(245, 241, 241);
+border:5px;
+border-radius: 30px;
+background-color: rgb(58, 58, 207);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
+cursor:pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+

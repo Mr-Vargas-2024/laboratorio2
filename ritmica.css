@@ -1,0 +1,93 @@
+h2{
+    font-family: "arial";
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 30px;
+    padding: 15px;
+    border: 5px solid rgb(104, 104, 202);
+    border-style:  outset ;
+    text-align: center;
+    background-color: rgba(6, 24, 33, 0.938);
+    border-radius: 10px;
+  
+    
+   }
+   h1{
+    font-family: "arial";
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: -5px;
+    padding: 15px;
+    border: 5px solid rgb(104, 104, 202);
+    border-style:  outset ;
+    text-align: center;
+    background-color: rgba(6, 24, 33, 0.938);
+    border-radius: 10px;
+    
+    
+   }
+   
+   body{
+       background:rgb(58, 57, 57)
+   }
+   
+   img{
+    width: 15%;
+    margin-right: 20px;
+    margin-left: 50px;
+   
+   }
+   
+   
+   a{
+       padding: 10px 20px;
+       background-color: rgba(6, 24, 33, 0.938);
+       border: 9px solid rgb(75, 73, 73);
+       color: aliceblue;
+       text-decoration: none;
+       position:absolute;
+       border-radius: 20px;   
+       border:inset; 
+       top: 80%;                       /* a la mitad de la pagina*/
+       left: 40%; 
+   }
+   
+       h2:hover{  /* cambia color del boton */
+           background-color: rgba(117, 86, 153, 0.84) ;
+           border-radius: 40px; 
+           
+       }
+   
+     iframe{
+        margin: 5px;
+        border: solid 5px wheat;
+        margin-right:10px;
+        
+     }  
+   div{
+    background-color: rgba(30, 2, 48, 0.885);
+    border:unset; 
+    border-radius: 15px;
+   
+}
+ 
+
+@media(min-width: 600px){ 
+
+    
+}
+
+
+@media(max-width: 600px){  
+}
+
+
+   
+
+
+
+
+   
+
+   
+   

@@ -1,0 +1,83 @@
+
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(corchea.webp);
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 10vh;
+background-color:rgb(22, 22, 22);
+padding: 10px;
+
+}
+
+thead{
+    background: rgb(61, 111, 161);
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+    border:outset;
+}
+
+th{
+padding: 5px 10px;
+font-weight: 500;
+text-transform:uppercase; /*cambia texto a mayuculas*/
+border:outset;/*borde afuera*/
+border-radius: 10px;
+}
+
+
+tr{
+
+    color: aliceblue;
+    background: rgba(18, 91, 165, 0.486);
+}
+td{
+    
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform:uppercase; /*cambia texto a mayuculas*/
+    border:outset;/*borde afuera*/
+    border-radius: 5px;
+
+}
+.salir{
+    
+    border:outset; 
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 30px; 
+    border-bottom: 10px;
+    background-color: rgb(61, 111, 161);
+    color: aliceblue;
+    position:absolute;
+    border:outset;
+    top: 90%;                       /* boton final de  de la pagina*/
+    left: 45%;     
+    
+}  
+
+h3{
+color: aliceblue;
+text-align: center;
+background-color: blue;
+font-size: 30PX;
+border-radius: 10PX;
+border:inset; 
+
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(83, 6, 119);
+    font-size: 20PX;
+    border-radius: 10PX;
+    border:inset; 
+    
+    }
+    
+
+       

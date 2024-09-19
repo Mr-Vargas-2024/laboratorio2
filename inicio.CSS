@@ -1,0 +1,89 @@
+/*.marca {
+
+    margin-top:-200%;
+    height: 90px;
+    width: 40%;
+    ESTA ES LA MEDIDA DE LA IMAGEN QUE NO SE CENTRA IZQUIERDA
+
+}*/
+body{
+    background-color:  rgba(6, 24, 33, 0.938);
+   
+}
+img{ /* IMAGEN FONDO BIBLIOSAX*/ 
+    margin-top: 3px;
+    padding: 5px;
+    height: 50%;
+    width: 99%;
+    border-radius: 20px;
+    
+} 
+
+h1 {    /* TITULO  BIBLIOSAX*/ 
+   
+    font-family:"Permanent Marker", cursive;
+    letter-spacing: 10px;
+    font-size: 80px;
+    position:absolute;
+    top: 30%;                       /* a la mitad de la pagina*/
+    left: 6%;                       /* margen de 6% desde la izquierda*/
+    color: goldenrod;   
+}
+
+h2 {                           /* TITULO SLOGAN*/
+    font-family: "arial";
+    font-size: 30px;
+    position:absolute;
+    top: 55%;                  /* a la mitad de la pagina*/
+    left: 6%;                  /* margen de 6% desde la izquierda*/
+    color: aliceblue;
+  
+}
+
+P{
+    text-align: center;
+    color:darkgray
+    
+}
+nav {
+    
+    background: rgba(10, 10, 10, 0.92);
+    border-radius: 20px ; 
+    width: 45%;
+    height: 70px;
+    top: 2%;  /* sube el menu */
+    position:static;   /* sirve para dejar el menu quieto */
+    z-index: 70px;     /* sirve colocar el menu sobrepuesto de la imagen */
+    float:left;  /* barra de navegacio  a la izquierda */
+    border:inset;
+       
+}
+nav ul {
+    list-style:outside ; /* quitamos los puntos de la lista */
+    overflow:auto; /* invisible elementos fuera del menu */   
+}
+
+nav ul li { 
+
+    float:left;   /* posición caja menu */
+    font-size: 15px; /* tamaño del la caja menu */
+}
+
+nav ul li a { 
+
+    display:inline-flex;
+    padding: 8px;   /* sube 10px arriba el menu */
+    color: rgba(196, 194, 191, 0.932);
+    font-family:Arial, Helvetica;
+    text-decoration: none;
+    
+    
+}
+nav ul li:hover {  /* cambia grosor caja del menu */
+    background-color: rgba(154, 154, 152, 0.561) ;
+    border-radius: 40px; 
+    border:outset ;  /* borde de el menu */    
+}
+ /*AQUI COMIENZA EL FORMULARIO DE REGISTRO */  
+
+

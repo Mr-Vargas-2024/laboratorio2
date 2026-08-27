@@ -1,89 +1,85 @@
-/*.marca {
-
-    margin-top:-200%;
-    height: 90px;
-    width: 40%;
-    ESTA ES LA MEDIDA DE LA IMAGEN QUE NO SE CENTRA IZQUIERDA
-
-}*/
-body{
-    background-color:  rgba(6, 24, 33, 0.938);
-   
+body {
+    background-color: rgba(6, 24, 33, 0.938);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-img{ /* IMAGEN FONDO BIBLIOSAX*/ 
-    margin-top: 3px;
+
+/* Corrección de la imagen de fondo */
+img { 
+    margin-top: 10px;
     padding: 5px;
-    height: 50%;
+    height: 50vh;
     width: 99%;
     border-radius: 20px;
-    
+    object-fit: cover;
 } 
 
-h1 {    /* TITULO  BIBLIOSAX*/ 
-   
-    font-family:"Permanent Marker", cursive;
+h1 { /* TITULO BIBLIOSAX */ 
+    font-family: "Permanent Marker", cursive;
     letter-spacing: 10px;
     font-size: 80px;
-    position:absolute;
-    top: 30%;                       /* a la mitad de la pagina*/
-    left: 6%;                       /* margen de 6% desde la izquierda*/
+    position: absolute;
+    top: 30%;
+    left: 6%;
     color: goldenrod;   
 }
 
-h2 {                           /* TITULO SLOGAN*/
-    font-family: "arial";
+h2 { /* TITULO SLOGAN */
     font-size: 30px;
-    position:absolute;
-    top: 55%;                  /* a la mitad de la pagina*/
-    left: 6%;                  /* margen de 6% desde la izquierda*/
+    position: absolute;
+    top: 55%;
+    left: 6%;
     color: aliceblue;
-  
 }
 
-P{
+p {
     text-align: center;
-    color:darkgray
-    
+    color: darkgray;
 }
+
+/* --- MENÚ DE NAVEGACIÓN CORREGIDO --- */
 nav {
-    
     background: rgba(10, 10, 10, 0.92);
-    border-radius: 20px ; 
-    width: 45%;
-    height: 70px;
-    top: 2%;  /* sube el menu */
-    position:static;   /* sirve para dejar el menu quieto */
-    z-index: 70px;     /* sirve colocar el menu sobrepuesto de la imagen */
-    float:left;  /* barra de navegacio  a la izquierda */
-    border:inset;
-       
+    border-radius: 20px;
+    width: 90%; /* Ajustado para que abarque mejor en pantallas */
+    max-width: 800px;
+    height: auto;
+    margin: 15px auto; /* Centrado automáticamente */
+    border: inset 2px rgba(255, 255, 255, 0.2);
 }
+
 nav ul {
-    list-style:outside ; /* quitamos los puntos de la lista */
-    overflow:auto; /* invisible elementos fuera del menu */   
+    list-style-type: none; /* ELIMINA LOS PUNTOS MOLESTOS */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Vuelve el menú flexible y ordenado en fila */
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-nav ul li { 
-
-    float:left;   /* posición caja menu */
-    font-size: 15px; /* tamaño del la caja menu */
+nav ul li {
+    font-size: 15px;
 }
 
-nav ul li a { 
-
-    display:inline-flex;
-    padding: 8px;   /* sube 10px arriba el menu */
+nav ul li a {
+    display: block;
+    padding: 12px 15px;
     color: rgba(196, 194, 191, 0.932);
-    font-family:Arial, Helvetica;
     text-decoration: none;
-    
-    
+    transition: background 0.3s;
 }
-nav ul li:hover {  /* cambia grosor caja del menu */
-    background-color: rgba(154, 154, 152, 0.561) ;
-    border-radius: 40px; 
-    border:outset ;  /* borde de el menu */    
+
+nav ul li:hover { 
+    background-color: rgba(154, 154, 152, 0.561);
+    border-radius: 20px;   
 }
- /*AQUI COMIENZA EL FORMULARIO DE REGISTRO */  
+
+/* Solución para la clase .marca que mencionabas */
+.marca {
+    display: block;
+    margin: 0 auto; /* Centra automáticamente un elemento de bloque */
+    height: 90px;
+    width: 40%;
+} 
 
 
